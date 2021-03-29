@@ -1,0 +1,168 @@
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 0 0 25px 0 black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(48, 45, 45);
+    text-align: center;
+}
+
+.route{
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.welcome{
+    margin-top: 80px;
+}
+
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    margin: 25px;
+    font-size: 0.5cm;
+    min-width: 300px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    width: 100%;
+}
+
+thead{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+td,th{
+    
+    padding: 20px 15px;
+
+}
+tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody  tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+
+tbody tr :active-row{
+    font-weight: bold;
+    color: #009879;
+}
+
+.text-center{
+    margin-top: 80px;
+    width:100%;
+    text-align: center;
+}
+
+.successMessage{
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+
+
+}
+
+.updateButton{
+    border-radius: 12px;
+    background-color: #009879;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    box-shadow:0 0 20px rgb(20, 20, 20);
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.updateButton:hover{
+    opacity: 0.5;
+}
+
+.deleteButton{
+    border-radius: 12px;
+    background-color: coral;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    box-shadow:0 0 20px rgb(20, 20, 20);
+}
+
+.deleteButton:hover{
+    opacity: 0.5;
+}
+
+.addButtonContainer{
+    width: 100%;
+    align-items: center;
+}
+
+.addButton{
+    background-color: #009879;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    box-shadow:0 0 20px rgb(20, 20, 20);
+
+}
+
+.updateContainer{
+    margin-top: 80px;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+}
+
+input:hover{
+    border:2px solid rgb(130, 199, 231) ;
+}
+
+fieldset{
+    margin-bottom: 20px;
+    border: 2px solid blue;
+    box-shadow: 0 0 20px rgb(20, 20, 20);
+}
+
+.btn{
+    background-color: #40a043;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0 0 20px rgb(20, 20, 20);
+}
+.btn:hover{
+    opacity: 0.8;
+}
